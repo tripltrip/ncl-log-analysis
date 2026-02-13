@@ -12,7 +12,7 @@ A long is 64 bits, or 8 bytes
 A timestamp is a 32-bit Unix Timestamp, or 4 bytes
 
 Specification
-Header
+Header:
 The SKY header begins at offset 0 and is comprised of the following fields in order with no padding.
 
 1. Magic Bytes
@@ -23,6 +23,7 @@ The SKY header begins at offset 0 and is comprised of the following fields in or
 6. Flag length
 7. Flag
 8. Number of entries
+
 Magic Bytes
 The magic bytes field is an 8-byte unique sequence used to identify this file as using the SKY format. All valid SKY files must begin with a single, 8 byte sequence: 0x91534B590D0A1A0A.
 
